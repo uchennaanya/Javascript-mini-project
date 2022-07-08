@@ -1,0 +1,128 @@
+@font-face {
+  font-family: myfont;
+  src: url("/fonts/Cocogoose\ Pro\ Thin-trial.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: myfont;
+}
+header {
+  background: azure;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header li,
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  background-color: antiquewhite;
+  padding: 2rem;
+}
+
+button {
+  padding: 1rem;
+  border: 1px solid;
+}
+button:hover {
+  cursor: pointer;
+}
+.btn-danger {
+  background-color: red;
+  color: black;
+}
+.btn-primary {
+  background-color: aquamarine;
+}
+.btn-success {
+  background-color: green;
+  color: aliceblue;
+}
+
+img {
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+/* REVIEWs */
+
+.reviewSection {
+  width: 40vw;
+  margin: auto;
+}
+
+.customerReview {
+  color: gray;
+}
+.randomBtn {
+  border-radius: 45px;
+  padding: 0.5rem 1rem;
+}
+
+.navBtn {
+  border: none;
+  padding: 0.5rem;
+}
+.profilePics {
+  height: 250px;
+  width: 250px;
+  border-radius: 360px;
+}
+
+/* FAQs */
+
+.fa-plus-square,
+.fa-minus-square {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: pink;
+}
+
+.fa-minus-square {
+  display: none;
+}
+.show-text .fa-minus-square {
+  display: inline;
+}
+.show-text .fa-plus-square {
+  display: none;
+}
+.question-text {
+  /* display: none; */
+}
+
+.question-text p {
+  border-top: 1px solid;
+  padding: 10px;
+}
+
+.show-text .question-text {
+  display: block;
+}
+.question {
+  width: 30%;
+  margin: 2rem auto;
+  background: #f1f1f1;
+  color: darkgreen;
+  box-shadow: -1px 2px 5px 2px #ccc;
+}
+
+.question-tile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.question-tile button {
+  background: transparent !important;
+  padding: 0;
+  border: none;
+}
